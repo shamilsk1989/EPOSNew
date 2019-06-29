@@ -1,0 +1,22 @@
+{
+  "Invoice": [
+    {
+      "refund_number": "Ref-1001",
+      "invoice_number": "INV-1-1007",
+      "total": 4.5,
+      "customer": "",
+      "employee": "yuvi",
+      "date": "2019-01-05"
+    }
+  ],
+  "Details": [
+    {
+      "refund_number": "INV-1-1007",
+      "invoice_number": "b1",
+      "item_code": "banana",
+      "item_name": 1,
+      "item_price": 5,
+      "item_quantity": 5
+    }
+  ]
+}

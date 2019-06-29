@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="16dp"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+
+    android:orientation="vertical">
+
+
+    <EditText
+
+        android:id="@+id/mainEditText"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_centerVertical="true"
+        android:background="@drawable/editext_border"
+        android:ellipsize="start"
+        android:hint="shop name"
+        android:inputType="text"
+        android:singleLine="true"
+        android:maxLength="30"
+        android:padding="10dp" />
+
+
+    <EditText
+
+
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_centerVertical="true"
+        android:id="@+id/sub1EditText"
+        android:background="@drawable/editext_border"
+        android:ellipsize="start"
+        android:hint="Address"
+        android:inputType="text"
+        android:singleLine="true"
+        android:maxLength="30"
+        android:padding="10dp" />
+
+
+    <EditText
+
+
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/sub2EditText"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/editext_border"
+        android:singleLine="true"
+        android:maxLength="30"
+        android:padding="10dp"
+        android:hint="Address "
+        android:inputType="text" />
+
+
+
+    <EditText
+
+
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/mobileEditText"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/editext_border"
+        android:singleLine="true"
+        android:maxLength="10"
+        android:padding="10dp"
+        android:hint="Mobile "
+        android:inputType="number" />
+
+    <EditText
+
+
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/telEditText"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/editext_border"
+        android:singleLine="true"
+        android:maxLength="10"
+        android:padding="10dp"
+        android:hint="Tel "
+        android:inputType="number" />
+
+
+
+    <EditText
+
+
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/footerEditText"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/editext_border"
+        android:singleLine="true"
+        android:maxLength="30"
+        android:padding="10dp"
+        android:hint="Footer "
+        android:inputType="text" />
+
+
+    <Button
+        android:id="@+id/buttonSave"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height"
+        android:layout_marginTop="@dimen/login_button_margin_top"
+        android:background="@android:color/holo_green_dark"
+        android:text="Save"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>

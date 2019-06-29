@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/customborder"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+
+    android:paddingRight="16dp"
+    android:id="@+id/rv_layout"
+    >
+
+
+    <ImageView
+        android:id="@+id/rv_img_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:src="@drawable/ic_report" />
+
+    <LinearLayout
+
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_toRightOf="@+id/rv_img_edit"
+        android:weightSum="4"
+        android:layout_marginLeft="10dp">
+        <TextView
+
+            android:id="@+id/txt_amount"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:layout_weight="1.5"
+            android:textSize="15sp" />
+        <!--<TextView-->
+
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="1"-->
+            <!--android:textColor="@android:color/black"-->
+            <!--android:text="#"-->
+            <!--android:gravity="right"-->
+            <!--android:textSize="18sp" />-->
+
+
+        <TextView
+            android:id="@+id/rv_invoice_number"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:layout_weight="1.5"
+            android:gravity="right"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/imgSync"
+            android:src="@drawable/ic_sync"
+
+            />
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/rv_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout"
+        android:layout_marginLeft="35dp"
+
+        />
+
+
+
+
+
+
+</RelativeLayout>

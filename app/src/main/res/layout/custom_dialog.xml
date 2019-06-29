@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="10dp"
+        android:id="@+id/header_layout">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:id="@+id/btn_minus"
+            android:textColor="@android:color/white"
+            android:theme="@style/Theme.MaterialButton"
+            />
+
+        <EditText
+
+            android:id="@+id/countEditText"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:maxLength="3"
+            android:maxLines="1"
+            android:textSize="@dimen/font_size_edittext_hint"
+            android:text="1"
+            android:background="@drawable/editext_border"
+            android:inputType="number" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_plus"
+            android:textColor="@android:color/white"
+            android:theme="@style/Theme.MaterialButton"
+            android:text="+" />
+    </LinearLayout>
+
+
+
+</RelativeLayout>

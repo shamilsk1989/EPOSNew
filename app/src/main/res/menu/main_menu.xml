@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/action_search"
+        android:icon="@mipmap/ic_search"
+        android:title="@string/action_search"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="ifRoom|collapseActionView"
+        />
+
+    <item
+        android:id="@+id/action_cart"
+        android:icon="@mipmap/ic_cart"
+        android:title="@string/action_cart"
+        app:actionLayout="@layout/cart_badge"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_person"
+        android:icon="@drawable/ic_person_add"
+        android:title="@string/action_user"
+        app:showAsAction="always" />
+
+
+
+    <item
+        android:id="@+id/action_delete"
+        android:icon="@drawable/ic_delete"
+        android:title="@string/action_delete"
+        app:showAsAction="always" />
+
+
+
+
+</menu>

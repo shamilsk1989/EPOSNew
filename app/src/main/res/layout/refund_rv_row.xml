@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/customborder"
+    android:id="@+id/header_layout"
+
+    >
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        android:weightSum="4">
+
+        <CheckBox
+            android:id="@+id/chkBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tv_item"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="item"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="x"
+
+            />
+
+        <TextView
+            android:id="@+id/tv_qty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center|left"
+            android:text="2"
+
+            />
+
+        <TextView
+            android:id="@+id/tv_price"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center|right"
+            android:text="20.00"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+
+            />
+
+
+    </LinearLayout>
+
+
+    <TextView
+
+        android:id="@+id/rv_txtRefunded"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout"
+        android:paddingLeft="5dp"
+        android:textColor="@android:color/holo_red_dark"
+        android:text="Refunded" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="x"
+        android:layout_below="@+id/layout"
+        android:layout_toRightOf="@+id/rv_txtRefunded"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/txt1" />
+
+    <TextView
+        android:id="@+id/refunded_qty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2"
+        android:layout_below="@+id/layout"
+        android:layout_toRightOf="@+id/txt1"
+
+        android:textColor="@android:color/black"
+
+
+        />
+
+
+
+
+    <TextView
+
+        android:id="@+id/rv_txtRefund"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rv_txtRefunded"
+        android:paddingLeft="5dp"
+        android:textColor="@android:color/holo_orange_light"
+        android:text="Refund" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="x"
+        android:layout_below="@+id/rv_txtRefunded"
+        android:layout_toRightOf="@+id/rv_txtRefund"
+        android:layout_marginLeft="10dp"
+
+        android:id="@+id/txt" />
+
+    <TextView
+        android:id="@+id/refund_qty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2"
+        android:layout_below="@+id/rv_txtRefunded"
+        android:layout_toRightOf="@+id/txt"
+
+        android:textColor="@android:color/black"
+
+
+        />
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    tools:context=".view.HomeFragment"
+    android:orientation="vertical"
+
+
+    >
+
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:gravity="center"
+     android:padding="20dp"
+     android:orientation="vertical"
+
+
+     >
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:textSize="30sp"
+
+         android:id="@+id/txtTotalInvoice"
+         android:background="@drawable/round_textview"
+
+         />
+
+
+
+     <TextView
+         android:id="@+id/rv_price"
+         android:layout_width="wrap_content"
+         android:layout_height="30dp"
+         android:background="@drawable/capsule"
+         android:gravity="center"
+         android:text="Invoice"
+         android:layout_marginTop="20dp"
+         android:textColor="@android:color/white"/>
+
+
+ </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.github.mikephil.charting.charts.PieChart
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/pieChart">
+
+        </com.github.mikephil.charting.charts.PieChart>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

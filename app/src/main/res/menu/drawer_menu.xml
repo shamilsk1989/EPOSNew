@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_sale"
+            android:icon="@drawable/ic_sale"
+            android:title="@string/nav_sales" />
+
+
+        <item
+            android:id="@+id/nav_receipt"
+            android:icon="@drawable/ic_receipt"
+            android:title="@string/nav_receipt" />
+
+        <item
+            android:id="@+id/nav_return"
+            android:icon="@drawable/ic_receipt"
+            android:title="@string/nav_return" />
+
+        <item
+            android:id="@+id/nav_item"
+            android:icon="@drawable/ic_category"
+            android:title="@string/nav_items" />
+
+        <item
+            android:id="@+id/nav_printers"
+            android:icon="@drawable/ic_print_black_24dp"
+            android:title="@string/nav_printers" />
+
+
+
+    </group>
+
+
+    <item android:title="@string/nav_title"
+        android:id="@+id/nav_admin">
+        <menu>
+
+
+
+
+            <item
+                android:id="@+id/nav_employee"
+                android:icon="@drawable/ic_person"
+                android:title="@string/nav_employee" />
+
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_settings"
+                android:title="@string/nav_settings" />
+
+        </menu>
+
+
+    </item>
+
+
+    <item android:title="Reports"
+        android:id="@+id/nav_report">
+        <menu>
+
+
+            <item
+                android:id="@+id/nav_summery_report"
+                android:icon="@drawable/ic_report"
+                android:title="Summery" />
+
+
+            <item
+                android:id="@+id/nav_staff_report"
+                android:icon="@drawable/ic_report"
+                android:title="Staff" />
+
+            <item
+                android:id="@+id/nav_cus_report"
+                android:icon="@drawable/ic_report"
+                android:title="Customer" />
+
+        </menu>
+
+
+    </item>
+
+
+
+</menu>
